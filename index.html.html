@@ -1,0 +1,41 @@
+<index.html>
+<DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agenda M-GTR</title>
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Agenda M-GTR</h1>
+            <p>Organize seus compromissos com simplicidade</p>
+        </header>
+
+        <section class="form-area">
+            <form id="taskForm">
+                <input type="text" id="title" placeholder="Título" required />
+                <input type="date" id="date" required />
+                <input type="time" id="time" required />
+
+                <textarea id="description" placeholder="Descrição"></textarea>
+
+                <button type="submit">Salvar</button>
+
+            </form>
+        </section>
+
+        <section class="filter-area">
+            <button data-filter="all">Todos</button>
+            <button data-filter="pending">Pendentes</button>
+            <button data-filter="done">Concluídos</button>
+
+        </section>
+        <section id="taskList" class="task-list"></section> 
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+style.css
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f4f6;
+    color: #222;
+}
+
+.container {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+header h1 {
+    color: #2563eb;
+}
+
+header p {
+    color: #667;
+}
+
+.form-area,
+.filter-area,
+.task-list {
+    margin-bottom: 20px;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+input,
+textarea,
+button {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    resize: none;
+    height: 90px;
+}
+
+button {
+    background: #2563eb;
+    color: white;
+    cursor: pointer;
+    border: none;
+
+}
+
+button hover { 
+    opacity: 0.9;
+}
+
+.filter-area {
+    display: flex;
+    gap: 10px;
+}
+
+.task-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+
+}
+
+.task-card.done {
+    opacity: 0.7;
+    text-decoration: line-through;
+}
+
+.actions {
+    margin-top: 10px;
+    display: flex;
+    gap: 8px;
+}
+
