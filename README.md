@@ -19,5 +19,3 @@ Sistema de agenda pessoal para organização de compromissos, desenvolvido com H
 
 🎯 Objetivo do projeto
 Praticar lógica de programação, manipulação do DOM, organização de código e desenvolvimento de interfaces funcionais.
-
-🔗 Deploy
